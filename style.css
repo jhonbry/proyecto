@@ -1,0 +1,327 @@
+body {
+  background-color: #f2f2f2;
+  margin: 0%;
+  padding: 0%;
+}
+
+.flex {
+  display: grid;
+  justify-items: center;
+}
+
+
+.grilla {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  margin: 90px;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: 60% 40%;
+  text-align: center;
+}
+
+.cua1,
+.cua2,
+.cua3 {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: 0px 15px 35px black;
+  background-color: #ffcc00;
+}
+
+.cua4,
+.cua5,
+.cua6 {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: 0px 15px 35px black;
+  background-color: #ffcc00;
+}
+
+
+.cua1 img {
+  position: relative;
+  top: 15%;
+  left: 15%;
+  width: 140px;
+  height: 150px;
+
+}
+
+.cua2 img {
+  position: relative;
+  top: 15%;
+  left: 15%;
+  width: 140px;
+  height: 150px;
+
+}
+
+.cua3 img {
+  position: relative;
+  top: 15%;
+  left: 15%;
+  width: 140px;
+  height: 150px;
+
+}
+
+.cua4 img {
+  position: relative;
+  top: 15%;
+  left: 13%;
+  width: 150px;
+  height: 150px;
+
+}
+
+.cua5 img {
+  position: relative;
+  top: 15%;
+  left: 13%;
+  width: 150px;
+  height: 150px;
+}
+
+.cua6 img {
+  position: relative;
+  top: 15%;
+  left: 15%;
+  width: 140px;
+  height: 150px;
+
+}
+
+.cua1 img:hover {
+  background-color: #ff6600;
+  width: 120px;
+  height: 120px;
+  top: 15%;
+  left: 18%;
+}
+
+.cua2 img:hover {
+  background-color: #ff6600;
+  width: 120px;
+  height: 120px;
+  top: 15%;
+  left: 18%;
+}
+
+.cua3 img:hover {
+  background-color: #ff6600;
+  width: 120px;
+  height: 120px;
+  top: 15%;
+  left: 18%;
+}
+
+.cua4 img:hover {
+  background-color: #ff6600;
+  width: 120px;
+  height: 120px;
+  top: 15%;
+  left: 18%;
+}
+
+.cua5 img:hover {
+  background-color: #ff6600;
+  width: 120px;
+  height: 120px;
+  top: 15%;
+  left: 18%;
+}
+
+.cua6 img:hover {
+  background-color: #ff6600;
+  width: 120px;
+  height: 120px;
+  top: 15%;
+  left: 18%;
+}
+
+
+
+
+@media screen and (max-width: 1127px) {
+
+  .grilla {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .cua1,
+  .cua2,
+  .cua3 {
+    margin: 40px;
+    width: 260px;
+    height: 260px;
+    background-color: #ffcc00;
+  }
+
+  .cua4,
+  .cua5,
+  .cua6 {
+    margin: 40px;
+    width: 260px;
+    height: 260px;
+    background-color: #ffcc00;
+  }
+
+  .cua1 img {
+    position: relative;
+    left: 25%;
+    width: 120px;
+    height: 130px;
+  }
+
+  .cua2 img {
+    position: relative;
+    left: 25%;
+    width: 120px;
+    height: 130px;
+  }
+
+  .cua3 img {
+    position: relative;
+    left: 25%;
+    width: 120px;
+    height: 130px;
+  }
+
+  .cua4 img {
+    position: relative;
+    left: 25%;
+    width: 140px;
+    height: 130px;
+  }
+
+  .cua5 img {
+    position: relative;
+    left: 25%;
+    width: 120px;
+    height: 120px;
+  }
+
+  .cua6 img {
+    position: relative;
+    left: 25%;
+    width: 120px;
+    height: 130px;
+  }
+
+  .cua1 img:hover {
+    background-color: #ff6600;
+  }
+
+  .cua2 img:hover {
+    background-color: #ff6600;
+  }
+
+  .cua3 img:hover {
+    background-color: #ff6600;
+  }
+
+  .cua4 img:hover {
+    background-color: #ff6600;
+  }
+
+  .cua5 img:hover {
+    background-color: #ff6600;
+  }
+
+  .cua6 img:hover {
+    background-color: #ff6600;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .grilla {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .cua1,
+  .cua2,
+  .cua3 {
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    background-color: #ffcc00;
+  }
+
+  .cua4,
+  .cua5,
+  .cua6 {
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    background-color: #ffcc00;
+  }
+
+  .cua1 img {
+    position: relative;
+    width: 110px;
+    height: 110px;
+  }
+
+  .cua2 img {
+    position: relative;
+    width: 110px;
+    height: 110px;
+  }
+
+  .cua3 img {
+    position: relative;
+    width: 110px;
+    height: 110px;
+  }
+
+  .cua4 img {
+    position: relative;
+    width: 110px;
+    height: 100px;
+  }
+
+  .cua5 img {
+    position: relative;
+    width: 110px;
+    height: 110px;
+  }
+
+  .cua6 img {
+    position: relative;
+    width: 110px;
+    height: 110px;
+  }
+
+  .cua1 img:hover {
+    background-color: #ff6600;
+  }
+
+  .cua2 img:hover {
+    background-color: #ff6600;
+  }
+
+  .cua3 img:hover {
+    background-color: #ff6600;
+  }
+
+  .cua4 img:hover {
+    background-color: #ff6600;
+  }
+
+  .cua5 img:hover {
+    background-color: #ff6600;
+  }
+
+  .cua6 img:hover {
+    background-color: #ff6600;
+  }
+}
